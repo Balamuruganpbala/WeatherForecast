@@ -1,0 +1,45 @@
+.container-fluid{
+    background-color: rgb(210, 213, 184);
+}
+.a>div{
+    margin-bottom: 30px;
+    
+}
+   #inputvalue{
+     width: 70%;
+   }
+   #search{
+    width: 70%;
+    border-radius: 12px;
+    background-color: aqua;
+   }
+   #location{
+    width: 70%;
+    border-radius: 12px;
+    background-color: green;
+   }
+   .b{
+      border-radius: 12px;
+    
+   }
+   #forecast>div{
+    border-radius: 13px;
+   }
+   #separate{
+    height: 1px;
+    width: 70%;
+    background-color: rgb(169, 150, 150);
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0px;
+    align-items: center;
+    display: flex;
+   }
+   #separate::before{
+    content: "or";
+    background-color: aliceblue;
+    padding: 0px 15px;
+    margin-top: -4px;
+    
+      
+   }
